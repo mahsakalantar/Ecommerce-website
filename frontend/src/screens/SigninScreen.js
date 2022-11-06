@@ -34,7 +34,7 @@ export default function SigninScreen() {
       toast.error(getError(err));
     }
   };
-
+//when show login page for stoping..
   useEffect(() => {
     if (userInfo) {
       navigate(redirect);
