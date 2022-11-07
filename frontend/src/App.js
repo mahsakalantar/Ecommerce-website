@@ -88,6 +88,7 @@ function App() {
                 <Navbar.Brand>amazona</Navbar.Brand>
               </LinkContainer>
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
+             {/* hamburger btn mobile */}
               <Navbar.Collapse id="basic-navbar-nav">
                 <SearchBox />
                 <Nav className="me-auto  w-100  justify-content-end">
